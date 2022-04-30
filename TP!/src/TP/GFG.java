@@ -1,7 +1,7 @@
 package TP;
 
 public class GFG {
-	 // An optimized version of Bubble Sort
+	//ordena os valores por MENOR PRAZO PRIMEIRO(incluindo com prazo 0)
     static obj[] bubbleSort(obj arr[], int n)
     {
         int i, j;
@@ -22,8 +22,7 @@ public class GFG {
                 }
             }
  
-            // IF no two elements were
-            // swapped by inner loop, then break
+          
             if (swapped == false)
                 break;
         }

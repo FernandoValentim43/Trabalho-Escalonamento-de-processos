@@ -1,12 +1,12 @@
 10
-Jean Green;72;6
-James Sandero;13;1
+Mori Calliope;72;6
+Hoshimachi Suisei;13;0
 Takanashi Kiara;10;5
-Jean Green;72;5
-Jean Green;72;6  
-Hank McCurtis;37;5       
-James Sandero;22;5 
+Gawr Gura;72;5
+Takanashi Kiara;72;0
+Tsunomaki Watame;37;5       
+Kobo Kanaeru;22;5 
 Amelia Watson;11;12      
-Uruha Rushia;20;13
-Usada Pekora;20;13
+Uruha Rushia;20;44
+Usada Pekora;20;0
 
