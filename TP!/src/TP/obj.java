@@ -1,9 +1,9 @@
 package TP;
 
 public class obj {
-	String name;
-    int qdt;
-	int prz;
+	String name = null;
+    int qdt = 0;
+	int prz = 0;
 	
 	
 	public obj(String a, int b, int c) {

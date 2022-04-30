@@ -15,7 +15,7 @@ public class reader {
             String line = reader.readLine();  //le a primeira linha que contem a quantidade de pedidos
             int pedidosNum = Integer.parseInt(line);
             
-            
+    
             //array de pedidos
             obj listaPedidos[] = new obj[pedidosNum];
           
@@ -33,9 +33,7 @@ public class reader {
                 listaPedidos[i] = new obj(a,b,c);
      
             }
-          
-           
-
+ 
 	        reader.close();
 	        return listaPedidos;
 	        
