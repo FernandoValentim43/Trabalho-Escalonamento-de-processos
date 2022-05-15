@@ -1,12 +1,12 @@
 10
-Mori Calliope;72;6
-Hoshimachi Suisei;13;0
-Takanashi Kiara;10;5
-Gawr Gura;72;5
-Takanashi Kiara;72;0
-Tsunomaki Watame;37;5       
-Kobo Kanaeru;22;5 
-Amelia Watson;11;12      
-Uruha Rushia;20;44
-Usada Pekora;20;0
+Mori Calliope;72;6;0
+Hoshimachi Suisei;13;0;0
+Takanashi Kiara;10;5;0
+Gawr Gura;72;5;0
+Takanashi Kiara;72;0;0
+Tsunomaki Watame;37;5;0     
+Kobo Kanaeru;22;5;2
+Amelia Watson;11;12;2      
+Uruha Rushia;20;44;44
+Usada Pekora;20;0;1992
 
