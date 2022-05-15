@@ -46,11 +46,63 @@ public class sorter {
 				inp[i + (a - countZeros)] = with0[i];
 			}
 
-
 			return inp;
 
 
 		}
 
 	}
+ 
+	public static Produto[] sortEven(Produto[] pedidos) {
+		int odds = 0;
+		
+		for(int i = 0 ; i < pedidos.length ; i++) {
+			if(i%2 == 0) {
+				odds ++;
+			}
+		}
+		
+		Produto pedidosEven[] =  new Produto[odds];
+		
+		int cart = 0;
+		for(int j = 0 ; j < pedidos.length ; j++) {
+			if(j%2 == 0) {
+				pedidosEven[cart] = pedidos[j];
+				cart++;
+			}
+		}
+		
+		
+		
+		
+		return pedidosEven;
+		
+	}
+
+	public static Produto[] sortOdds(Produto[] pedidos) {
+		int odds = 0;
+		
+		for(int i = 0 ; i < pedidos.length ; i++) {
+			if(!(i%2 == 0)) {
+				odds ++;
+			}
+		}
+		
+		Produto pedidosOdds[] =  new Produto[odds];
+		
+		int cart = 0;
+		for(int j = 0 ; j < pedidos.length ; j++) {
+			if(!(j%2 == 0)) {
+				pedidosOdds[cart] = pedidos[j];
+				cart++;
+			}
+		}
+		
+		
+		
+		
+		return pedidosOdds;
+		
+	}
+
 }
