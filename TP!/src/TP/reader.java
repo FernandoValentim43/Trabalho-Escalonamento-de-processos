@@ -34,7 +34,6 @@ public class reader {
 				listaPedidos[i] = new ProdutoA(a,b,c,d);
 
 			}
-
 			reader.close();
 			return listaPedidos;
 

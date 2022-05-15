@@ -10,7 +10,7 @@ public class FabricaSimulacao {
 	public static void main(String args[]) throws FileNotFoundException {
         BracoMecanico Braco1 = new BracoMecanico(1);	
         BracoMecanico Braco2 = new BracoMecanico(2);		
-    
+   
 		//le o arquivo txt 
 		Produto pedidos[] = reader.readFile("C:\\Users\\Hippo\\git\\Trabalho-Escalonamento-de-processos\\TP!\\pedidos.txt"); // <--- insira o caminho do arquivo txt de pedidos
 
@@ -18,7 +18,7 @@ public class FabricaSimulacao {
 		Produto pedidosEven[] = sorter.sortEven(pedidos);
 		Produto pedidosOdds[] = sorter.sortOdds(pedidos);
 
-		//ordena os pedidos. >>>>>>  PRAZO MAIS CURTO PRIMEIRO	<<<<<<<	
+		//ordena os pedidos. >>>>>>  PRAZO MAIS CURTO PRIMEIR0 <<<<<<<	
 		Produto OrdenedA[] = sorter.sort(pedidosEven);
 		Produto OrdenedB[] = sorter.sort(pedidosOdds);
 

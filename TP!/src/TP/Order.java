@@ -25,7 +25,7 @@ public class Order {
 			if (swapped == false)
 				break;
 		}
-		return arr; //retorna os valores ordenados pro prazo(menor para maior)
+		 return arr; //retorna os valores ordenados pro prazo(menor para maior)
 	}
 
 }

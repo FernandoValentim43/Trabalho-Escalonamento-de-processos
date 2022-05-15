@@ -4,7 +4,6 @@ public class ProdutoA extends Produto {
      int size = 250;
      int type = 1;
 	 
-	
 	public ProdutoA(String a, int b, int c, int d) {
 		super(a, b, c, d);
 		 

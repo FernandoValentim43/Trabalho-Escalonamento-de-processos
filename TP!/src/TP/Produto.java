@@ -10,8 +10,6 @@ public abstract class Produto { //pedido
 	boolean prize;  //se o produto é marcado como priotirario*
 	
 	double caixas; //quantas caixas o pedido terá(baseado em quantos produtos do tipo em questão cabem na caixa)
-	
-	
 
 	public Produto(String a, int b, int c, int d) {
 		this.name = a;

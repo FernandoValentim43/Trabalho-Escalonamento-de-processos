@@ -87,7 +87,7 @@ public class sorter {
 				odds ++;
 			}
 		}
-		
+		 
 		Produto pedidosOdds[] =  new Produto[odds];
 		
 		int cart = 0;

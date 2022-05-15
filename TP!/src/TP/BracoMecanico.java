@@ -9,6 +9,7 @@ public class BracoMecanico {
 		this.tipo = tipo;
 	}
 	
+	
 	public void work(Produto Sorted[]) {
 		for(Produto x: Sorted) {	
 			
