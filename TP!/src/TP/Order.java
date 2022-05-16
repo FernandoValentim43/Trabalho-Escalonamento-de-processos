@@ -9,8 +9,8 @@ public class Order {
 		boolean swapped;
 		for (i = 0; i < n - 1; i++)
 		{
-			swapped = false;
-			for (j = 0; j < n - i - 1; j++)
+	     		swapped = false;
+			 for (j = 0; j < n - i - 1; j++)
 			{
 				if (arr[j].prz > arr[j + 1].prz)
 				{

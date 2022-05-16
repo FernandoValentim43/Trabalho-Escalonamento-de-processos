@@ -10,7 +10,7 @@ public class ProdutoA extends Produto {
 		if( b <= 20) {
 			caixas = 1;
 		} else if ( b > 20) {
-			caixas = Math.ceil((double)b/(double)20);
+		    	caixas = Math.ceil((double)b/(double)20);
 		}
 		
 		

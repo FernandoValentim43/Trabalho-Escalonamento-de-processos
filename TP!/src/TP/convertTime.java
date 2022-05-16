@@ -8,7 +8,7 @@ public class convertTime {
 		int seconds = totalSecs % 60;
 
 		
-		String timeString = String.format("%02d:%02d:%02d", hours, minutes, seconds);
+		 String timeString = String.format("%02d:%02d:%02d", hours, minutes, seconds);
 		return timeString;
 	}
 }
