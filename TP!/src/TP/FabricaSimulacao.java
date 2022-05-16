@@ -45,7 +45,6 @@ public class FabricaSimulacao {
 			new Thread() { 
 		        public void run() {
 		        	Braco1.work(OrdenedA);
-
 		        }
 		    }.start();
 		    new Thread() { 
