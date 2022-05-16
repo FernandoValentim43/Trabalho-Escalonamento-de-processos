@@ -12,14 +12,14 @@ public class BracoMecanico {
 	
 	public void work(Produto Sorted[]) {
 		for(Produto x: Sorted) {	
-			
+			System.out.println("[" + (convertTime.secTomin( Math.round(caixas * 5.5)))  + "]" ); //tempo total		
 			caixas = (int) (caixas + x.caixas); 
 	
 			x.show(); //mostra informções do pedido
 			x.execPedido(); //mostra tempo de empacotamento total do pedido
 			x.whoMade(tipo); //mostra em qual esteira o pedido foi feito
 			
-			System.out.println(convertTime.secTomin( Math.round(caixas * 5.5))  + "\r\n"); //tempo total
+			
 			
 		}
 	}
