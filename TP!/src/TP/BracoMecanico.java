@@ -6,7 +6,7 @@ public class BracoMecanico {
 	int caixas = 0;
 	
 	public BracoMecanico(int tipo) {
-		this.tipo = tipo;
+		 this.tipo = tipo;
 	} 
 	
 	

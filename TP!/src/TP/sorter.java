@@ -14,7 +14,7 @@ public class sorter {
 			}
 		}
 
-		Produto[] inp = Order.bubbleSort(pedidos, a); //ordena eles por MENOR PRAZO PRIMEIRO
+		 Produto[] inp = Order.bubbleSort(pedidos, a); //ordena eles por MENOR PRAZO PRIMEIRO
 
 		if(countZeros == 0) {
 
