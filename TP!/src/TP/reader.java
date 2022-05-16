@@ -27,7 +27,7 @@ public class reader {
 				String[] aux = strLine.split(";");
 
 				String a = aux[0];
-				 int b = Integer.parseInt(aux[1].replaceAll("\\s", ""));
+				int b = Integer.parseInt(aux[1].replaceAll("\\s", ""));
 				int c = Integer.parseInt(aux[2].replaceAll("\\s", ""));
 				int d = Integer.parseInt(aux[3].replaceAll("\\s", ""));
 

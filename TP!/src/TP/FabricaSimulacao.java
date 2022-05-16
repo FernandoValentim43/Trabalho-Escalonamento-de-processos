@@ -16,7 +16,7 @@ public class FabricaSimulacao {
 
 		//separa metade dos pedidos 
 		Produto pedidosEven[] = sorter.sortEven(pedidos);
-		 Produto pedidosOdds[] = sorter.sortOdds(pedidos);
+		Produto pedidosOdds[] = sorter.sortOdds(pedidos);
 
 		//ordena os pedidos. >>>>>>  PRAZO MAIS CURTO PRIMEIR0 <<<<<<<	
 		Produto OrdenedA[] = sorter.sort(pedidosEven);

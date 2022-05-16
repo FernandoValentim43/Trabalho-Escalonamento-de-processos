@@ -12,7 +12,7 @@ public abstract class Produto { //pedido
 	double caixas; //quantas caixas o pedido terá(baseado em quantos produtos do tipo em questão cabem na caixa)
 
 	public Produto(String a, int b, int c, int d) {
-		 this.name = a;
+		this.name = a;
 		this.qdt = b;
 		this.prz = c;
 		this.dtChegada = d;
